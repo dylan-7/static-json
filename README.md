@@ -11,7 +11,7 @@ yarn add static-json
 Return json list.
 
 ```
-import { payType } from 'joys-utils';
+import { payType } from 'static-json';
 payType.map(v => <span>v</span>);
 ```
 

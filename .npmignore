@@ -9,6 +9,7 @@
 /build
 /public/assets
 /public
+/dist/index.map
 
 # misc
 /.idea

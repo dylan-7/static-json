@@ -16,3 +16,5 @@ payType.map(v => <span>v</span>);
 ```
 
 + payType
++ yesNo
++ terminal

@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "module": "esnext",
+    "target": "es5",
+    "rootDir": "lib",
+    "lib": [
+      "es6",
+      "dom",
+      "es2017.object",
+      "esnext"
+    ],
+    "experimentalDecorators": true,
+    "moduleResolution": "node"
+  },
+  "exclude": [
+    "node_modules",
+  ]
+}

@@ -2,7 +2,7 @@
   "name": "static-json",
   "description": "static json",
   "homepage": "https://github.com/dylan-7/static-json",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "dylan",
   "repository": {
     "type": "git",
@@ -23,11 +23,11 @@
   ],
   "types": "./types/index.d.ts",
   "devDependencies": {
-    "@types/lodash": "^4.14.117",
+    "@types/lodash": "^4.14.120",
     "lodash": "^4.17.11",
     "parcel": "^1.11.0",
-    "rimraf": "^2.6.2",
-    "typescript": "^3.1.2"
+    "rimraf": "^2.6.3",
+    "typescript": "^3.2.4"
   },
   "scripts": {
     "prepublish": "yarn run build",

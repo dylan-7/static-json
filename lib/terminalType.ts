@@ -1,11 +1,10 @@
 'use strict';
 
-import { split, isString, isArray, find, eq } from "lodash/fp";
+import { eq, isString, split, isArray, find } from "lodash/fp";
 
 /**
  * @desc
- * 支付类型
- * 1支付宝, 2微信支付, 3QQ钱包, 4网银支付, 5京东支付, 6银联支付, 7百度支付, 8财付通, 9点卡支付, 10云闪付
+ * 1 PC, 2 H5, 3 APP
  * 
  * @param
  * {'1,2'} 字符串，返回对应名称
@@ -14,17 +13,10 @@ import { split, isString, isArray, find, eq } from "lodash/fp";
  */
 const fn = (param: string | (number|string)[] | 'all') => {
   const list: (Props)[] = [
-    { dataIndex: 1, title: '支付宝' },
-    { dataIndex: 2, title: '微信支付' },
-    { dataIndex: 3, title: 'QQ钱包' },
-    { dataIndex: 4, title: '网银支付' },
-    { dataIndex: 5, title: '京东支付' },
-    { dataIndex: 6, title: '银联支付' },
-    { dataIndex: 7, title: '百度支付' },
-    { dataIndex: 8, title: '财付通' },
-    { dataIndex: 9, title: '点卡支付' },
-    { dataIndex: 10, title: '云闪付' }
-  ];
+    { dataIndex: 1, title: 'PC' },
+    { dataIndex: 2, title: 'H5' },
+    { dataIndex: 3, title: 'APP' }
+    ];
   let paramOk: (number)[] = [];
   const result = [];
 

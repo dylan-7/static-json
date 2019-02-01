@@ -1,9 +1,10 @@
-declare const _default: {
+/**
+  * @desc
+  * 是/否
+  */
+declare const fn: () => Props[];
+export default fn;
+interface Props {
     dataIndex: number;
     title: string;
-}[];
-/**
- * @desc
- * 是/否
- */
-export default _default;
+}

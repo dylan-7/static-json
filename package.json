@@ -2,7 +2,7 @@
   "name": "static-json",
   "description": "static json",
   "homepage": "https://github.com/dylan-7/static-json",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "author": "dylan",
   "repository": {
     "type": "git",

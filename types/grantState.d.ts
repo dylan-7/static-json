@@ -8,5 +8,5 @@
  * {[1,2]} 数组，返回对应名称
  * {'all'} 返回全部
  */
-declare const fn: (param: string | number | (string | number)[]) => any;
+declare const fn: (param: string | (string | number)[]) => any;
 export default fn;

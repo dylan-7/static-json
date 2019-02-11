@@ -35,7 +35,8 @@ var fn = function (param) {
         paramOk = param.map(function (v) { return +v; });
     }
     paramOk.map(function (v) {
-        result.push(find({ dataIndex: v }, list).title);
+        var row = find({ dataIndex: v }, list) || { title: '' };
+        result.push(row.title);
     });
     return String(result);
 };

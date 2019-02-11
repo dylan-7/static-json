@@ -36,7 +36,8 @@ const fn = (param: string | number | (number|string)[] | 'all') => {
     paramOk = param.map(v => +v);
   }
   paramOk.map(v => {
-    result.push(find({dataIndex: v}, list).title);
+    const row = find({dataIndex: v}, list) || {title: ''};
+    result.push(row.title);
   });
   return String(result) as any;
 };
